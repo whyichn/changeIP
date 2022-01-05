@@ -26,6 +26,8 @@ private slots:
 
 private:
     Ui::inputForm *ui;
+    QString ipaddr;
+    QString mask;
     ChangeIPWidget *parentWidge;
 };
 
